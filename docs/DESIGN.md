@@ -1,7 +1,7 @@
 # Design: Developer Completions API
 
 **Project:** `developer-completions-api`  
-**Parent system design:** `01-llm-inference-serving.md / 09-multi-model-routing-api-platform.md`
+**Parent system design:** [01 — LLM Inference Serving](../01-llm-inference-serving.md) · [09 — Multi-Model Routing / API Platform](../09-multi-model-routing-api-platform.md)
 
 ## 1. What this POC demonstrates
 
