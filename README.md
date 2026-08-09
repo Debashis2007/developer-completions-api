@@ -1,5 +1,7 @@
 # Use Case: Developer Completions / Chat API
 
+**YouTube walkthrough:** [Developer Completions Api — System Design #Shorts](https://youtu.be/od1oVlLfn1A)
+
 **Design doc:** [docs/DESIGN.md](./docs/DESIGN.md) — architecture, patterns, and why.
 
 
@@ -51,6 +53,9 @@ Reuse from **09**: aliases, quotas, metering, deprecation policy.
 
 
 ## Design walkthrough (opens on GitHub)
+
+> **Watch on YouTube:** [Developer Completions Api — System Design #Shorts](https://youtu.be/od1oVlLfn1A)
+
 
 ![Design overview](docs/video/design-overview.gif)
 
