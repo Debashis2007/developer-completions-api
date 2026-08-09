@@ -7,8 +7,8 @@
 **Design doc:** [docs/DESIGN.md](./docs/DESIGN.md) — architecture, patterns, and why.
 
 
-**Parent system design:** [01 — LLM Inference Serving](./01-llm-inference-serving.md)  
-**Also references:** [09 — Multi-model routing / API platform](./09-multi-model-routing-api-platform.md)
+**Parent system design:** [01 — LLM Inference Serving](https://github.com/Debashis2007/developer-completions-api/blob/main/01-llm-inference-serving.md)  
+**Also references:** [09 — Multi-model routing / API platform](https://github.com/Debashis2007/developer-completions-api/blob/main/09-multi-model-routing-api-platform.md)
 
 ## Users & problem
 
@@ -42,8 +42,8 @@ Reuse from **09**: aliases, quotas, metering, deprecation policy.
 |---------|---------------|
 | Fairness | Hard 429s with `Retry-After`; reserved capacity for paid |
 | Caching | Prefix cache keyed by org (never cross-org) |
-| Streaming | Optional SSE; same generation_id resume as [02](./02-streaming-token-delivery.md) |
-| Abuse | Spend caps, anomaly detection ([05](./05-model-monitoring-observability.md)) |
+| Streaming | Optional SSE; same generation_id resume as [02](https://github.com/Debashis2007/developer-completions-api/blob/main/02-streaming-token-delivery.md) |
+| Abuse | Spend caps, anomaly detection ([05](https://github.com/Debashis2007/developer-completions-api/blob/main/05-model-monitoring-observability.md)) |
 
 ## Failure modes
 
